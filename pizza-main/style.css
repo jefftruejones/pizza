@@ -1,4 +1,3 @@
-
 /* 
 	STYLE.CSS:
 	One stylesheet to rule them all.
@@ -12,19 +11,19 @@
 body {
   background-color: #5f5345;
 }
- 
+
 .pageContainer {
-  width: 940px;
+  width: 10px;
   margin: 20px auto 0 auto;
   padding: 20px;
   background-color: #fff;
 }
- 
+
 .imageContainer {
   float: left;
   width: 620px;
 }
- 
+
 .textContainer {
   float: left;
   width: 300px;
@@ -35,30 +34,27 @@ body {
 img {
   width: 100%;
 }
- 
+
 h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   font-size: 64px;
   color: #8b1b00;
 }
- 
-p, li {
-  font-family: 'Lato', sans-serif;
+
+p,
+li {
+  font-family: "Lato", sans-serif;
   font-size: 22px;
   color: #51473b;
 }
-
-
-
 
 /* ---- Advanced ---- */
 /* This tag is a bit advanced for this lesson,  
    but is needed to wrap the pageContainer 
    around any sized content that is floated within it. */
 
-.pageContainer:after { 
+.pageContainer:after {
   content: " ";
   display: table;
   clear: both;
 }
- 
